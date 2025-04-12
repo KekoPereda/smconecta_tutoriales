@@ -1,13 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <title>SMCONECTA - Videotutoriales</title>
 </head>
 
 <body>
+    <div class="color-conecta">.</div>
+    <header class="d-flex align-items-center justify-content-between encabezado">
+        <div class="logo"></div>
+        <h1 class="titulo">Videotutoriales</h1>
+    </header>
+
+
+    <main>
+        <div class="banner"></div>
+        <div class=" container mt-4 p-0 marco">
+            <div class="row ms-1 me-1 p-0">
+                <div class="col p-4 ">
+
+                    <h4 class="fw-light instruccion">Selecciona los video tutoriales que necesites ver</h4>
+                    <div class="botones">
+
+                        <button id="btnDocentes" class="btn_menu me-3 btn_docente">Docentes</button>
+                        <button id="btnEstudiantes" class="btn_menu btn_estudiante">Estudiantes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container videos mt-4 mb-5" id="tutorialesDocentes">
+            <div class="row ms-2 me-2">
+
+                <div class="col-12 mt-4 mb-4">
+                    <h1 class="categoria">Videotutoriales para docentes</h1>
+                </div>
+                <!-- Aquí se cargan dinámicamente las tarjetas -->
+            </div>
+        </div>
+
+        <div class="container videos mt-4 mb-5" id="tutorialesEstudiantes" style="display: none">
+            <div class="row ms-2 me-2">
+                <div class="col-12 mt-4 mb-4">
+                    <h1 class="categoria">Videotutoriales para estudiantes</h1>
+                </div>
+                <!-- Aquí también -->
+            </div>
+        </div>
+
+
+
+
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="color-conecta"></div>
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-light fs-4" id="modalTitulo">Título del video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="padding:56.25% 0 0 0;position:relative;">
+                            <iframe id="videoIframe" src="" frameborder="0" allow="autoplay; fullscreen"
+                                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <footer class="d-flex align-items-center justify-content-between p-3 bg-gris">
+            <small>SM 2025</small>
+            <small>SM CONECTA v3.0</small>
+        </footer>
+
+
+
+
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 
