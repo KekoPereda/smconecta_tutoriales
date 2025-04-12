@@ -1,0 +1,121 @@
+[
+    {
+        "titulo": "Nueva Biblioteca para docentes",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_1.png",
+        "video": "https://player.vimeo.com/video/1004562539?h=cb62b38fb8",
+        "descripcion": "Descubre cómo activar y gestionar las licencias de recursos educativos necesarios para tu trabajo docente."
+    },
+    {
+        "titulo": "Crear una clase",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_2.png",
+        "video": "https://player.vimeo.com/video/264061510",
+        "descripcion": "Aprende a crear clases dentro de SMCONECTA para organizar a tus alumnos y facilitar su aprendizaje."
+    },
+    {
+        "titulo": "Agregar alumnos a una clase",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_3.png",
+        "video": "https://player.vimeo.com/video/263935940",
+        "descripcion": "Te mostramos el proceso para añadir alumnos a tus clases y mantenerlos organizados."
+    },
+    {
+        "titulo": "Enviar trabajos a mis alumnos",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_4.png",
+        "video": "https://player.vimeo.com/video/263858491",
+        "descripcion": "Conoce cómo enviar tareas y ejercicios a tus alumnos de manera eficiente a través de SMCONECTA."
+    },
+    {
+        "titulo": "Cargar y compartir documentos",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_5.png",
+        "video": "https://player.vimeo.com/video/263411414",
+        "descripcion": "Aprende a cargar y compartir documentos educativos con tus alumnos para facilitar el aprendizaje."
+    },
+    {
+        "titulo": "Compartir APPS educativo",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_6.png",
+        "video": "https://player.vimeo.com/video/271474179",
+        "descripcion": "Explora cómo compartir APPS educativas con tus estudiantes para enriquecer su experiencia de aprendizaje."
+    },
+    {
+        "titulo": "Seguimiento de actividades",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_7.png",
+        "video": "https://player.vimeo.com/video/279522868",
+        "descripcion": "Sigue el progreso de tus alumnos a través de sus actividades y tareas completadas."
+    },
+    {
+        "titulo": "Buscar un código web",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_8.png",
+        "video": "https://player.vimeo.com/video/264139456",
+        "descripcion": "Aprende a buscar y utilizar códigos web para integrar recursos educativos externos en tu clase."
+    },
+    {
+        "titulo": "Visor de texto",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_9.png",
+        "video": "https://player.vimeo.com/video/265449329",
+        "descripcion": "Descubre cómo utilizar el libro digital para facilitar la visualización de contenido en tus clases."
+    },
+    {
+        "titulo": "Recuperar contraseña",
+        "tipo": "docente",
+        "imagen": "assets/img/docentes/docente_10.png",
+        "video": "https://player.vimeo.com/video/264275174",
+        "descripcion": "Guía paso a paso para recuperar tu contraseña y mantener el acceso a tu cuenta docente."
+    },
+    {
+        "titulo": "Registro, identificación y activación de licencia",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_1.png",
+        "video": "https://player.vimeo.com/video/263399791",
+        "descripcion": "Aprende cómo registrarte, identificarte y activar tus licencias para acceder a los materiales educativos."
+    },
+    {
+        "titulo": "Recuperar contraseña",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_2.png",
+        "video": "https://player.vimeo.com/video/264275174",
+        "descripcion": "Sigue este tutorial para recuperar tu contraseña y recuperar el acceso a tu cuenta de estudiante."
+    },
+    {
+        "titulo": "Encontrar mis clases",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_3.png",
+        "video": "https://player.vimeo.com/video/263507126",
+        "descripcion": "Te mostramos cómo localizar y acceder fácilmente a tus clases dentro de la plataforma."
+    },
+    {
+        "titulo": "Documentos compartidos por mi profesor",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_4.png",
+        "video": "https://player.vimeo.com/video/263511170",
+        "descripcion": "Aprende cómo acceder a los documentos que tu profesor ha compartido contigo para tu aprendizaje."
+    },
+    {
+        "titulo": "Trabajos enviados por mi profesor",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_5.png",
+        "video": "https://player.vimeo.com/video/263932897",
+        "descripcion": "Conoce cómo visualizar los trabajos y tareas que tu profesor ha enviado para ti."
+    },
+    {
+        "titulo": "Buscar un código web",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_6.png",
+        "video": "https://player.vimeo.com/video/264139456",
+        "descripcion": "Aprende cómo buscar y utilizar códigos web para acceder a recursos adicionales y materiales educativos."
+    },
+    {
+        "titulo": "Escanear códigos web",
+        "tipo": "estudiante",
+        "imagen": "assets/img/estudiantes/estudiantes_7.png",
+        "video": "https://player.vimeo.com/video/264139456",
+        "descripcion": "Sigue estos pasos para escanear códigos web y acceder a contenido educativo adicional."
+    }
+]
