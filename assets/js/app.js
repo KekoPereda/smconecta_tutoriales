@@ -58,7 +58,7 @@ fetch('assets/data/tutoriales.json')
                     data-video="${tutorial.video}">
                     <div class="ficha">
                         <img src="assets/img/play2.svg" class="btn_play" alt="Play">
-                        <img src="${tutorial.imagen}" class="card-img-top" alt="${tutorial.titulo}">
+                        <img src="${tutorial.imagen}" class="card-img-top imagen_ficha" alt="${tutorial.titulo}">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">${tutorial.titulo}</h5>

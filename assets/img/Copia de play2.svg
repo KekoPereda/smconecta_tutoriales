@@ -11,17 +11,12 @@
         isolation: isolate;
       }
 
-      .st2 {
-        opacity: .15;
-      }
-
       .st1 {
         fill: #fff;
         opacity: .9;
       }
     </style>
   </defs>
-  <rect class="st2" width="997.83" height="465.11"/>
-  <circle class="st0" cx="484.92" cy="232.55" r="134.08"/>
-  <polygon class="st1" points="435.61 169.87 435.61 297.54 554.91 229.95 435.61 169.87"/>
+  <rect class="st0" y="0" width="997.83" height="647.15"/>
+  <polygon class="st1" points="418.17 147.7 418.17 320.52 579.66 229.03 418.17 147.7"/>
 </svg>
