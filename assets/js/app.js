@@ -10,7 +10,7 @@ btnDocentes.addEventListener("click", () => {
     estudiantes.style.display = "none";
     btnDocentes.style.backgroundColor = "#3A97E1";
     btnEstudiantes.style.backgroundColor = "#8a8a8c";
-    tituloCategoria.textContent = "Videotutoriales para docentes";
+    tituloCategoria.textContent = "Video tutoriales para docentes";
 
 });
 
@@ -19,7 +19,7 @@ btnEstudiantes.addEventListener("click", () => {
     estudiantes.style.display = "block";
     btnEstudiantes.style.backgroundColor = "#3A97E1";
     btnDocentes.style.backgroundColor = "#8a8a8c";
-    tituloCategoria.textContent = "Videotutoriales para estudiantes";
+    tituloCategoria.textContent = "Video tutoriales para estudiantes";
 });
 
 // Cargar video en modal dinámicamente
@@ -93,16 +93,16 @@ document.getElementById('videoModal').addEventListener('hidden.bs.modal', functi
     document.getElementById('videoIframe').src = '';
 });
 
-function mostrarSeccion(seccion) {
-    docentes.style.opacity = 0;
-    estudiantes.style.opacity = 0;
+// function mostrarSeccion(seccion) {
+//     docentes.style.opacity = 0;
+//     estudiantes.style.opacity = 0;
 
-    setTimeout(() => {
-        docentes.style.display = seccion === "docente" ? "block" : "none";
-        estudiantes.style.display = seccion === "estudiante" ? "block" : "none";
+//     setTimeout(() => {
+//         docentes.style.display = seccion === "docente" ? "block" : "none";
+//         estudiantes.style.display = seccion === "estudiante" ? "block" : "none";
 
-        setTimeout(() => {
-            (seccion === "docente" ? docentes : estudiantes).style.opacity = 1;
-        }, 100);
-    }, 200);
-}
+//         setTimeout(() => {
+//             (seccion === "docente" ? docentes : estudiantes).style.opacity = 1;
+//         }, 100);
+//     }, 200);
+// }

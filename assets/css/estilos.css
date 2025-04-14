@@ -94,10 +94,12 @@ h3 {
 
 
 .titulo {
-    font-weight: 300;
-    font-size: 1.86em;
+    font-weight: 600;
+    font-size: 2.86em;
     margin: 0;
     transition: all 0.3s ease;
+    color: #f2ebeb;
+    font-family: "Dosis", sans-serif;
 }
 
 .banner {
@@ -116,6 +118,8 @@ h3 {
     font-weight: 300;
     margin: 0;
     padding: 0;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
 }
 
 
@@ -252,10 +256,10 @@ h3 {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 31fr));
-    /* Crea columnas automáticas de 300px de ancho mínimo */
+
     gap: 50px;
     padding: 20px 0;
-    /* padding: 20px 15px; */
+
 }
 
 
@@ -488,5 +492,8 @@ h3 {
         font-size: 14px !important;
     }
 
+    .titulo {
+        font-size: 1.6em;
+    }
 
 }
